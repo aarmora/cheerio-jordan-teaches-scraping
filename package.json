@@ -1,0 +1,33 @@
+{
+	"name": "cheerio-jordan-teaches-scraping",
+	"version": "1.0.0",
+	"description": "Jordan teaches finding text with cheerio and some sample html code.",
+	"main": "./dist/index.js",
+	"scripts": {
+		"start": "tsc && node ./dist/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aarmora/cheerio-jordan-teaches-scraping.git"
+	},
+	"keywords": [
+		"typescript",
+		"cheerio",
+		"javascript",
+		"web",
+		"scraping"
+	],
+	"author": "Jordan Hansen",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/aarmora/cheerio-jordan-teaches-scraping/issues"
+	},
+	"homepage": "https://github.com/aarmora/cheerio-jordan-teaches-scraping#readme",
+	"dependencies": {
+		"cheerio": "^1.0.0-rc.3"
+	},
+	"devDependencies": {
+		"@types/cheerio": "^0.22.13",
+		"typescript": "^3.7.2"
+	}
+}
