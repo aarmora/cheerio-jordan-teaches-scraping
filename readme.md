@@ -1,6 +1,6 @@
-# Email marketing with Mailgun and Cobalt Intelligence
+# Jordan Teaches Web Scraping - Cheerio 101
 
-This package is a simple script that allows users with little to no coding experience to leverage [Cobalt Intelligence](https://cobaltintelligence.com) and [Mailgun](https://www.mailgun.com/) for email marketing.
+This repository goes over the basics of using Cheerio on HTML.
 
 ## Getting Started
 
@@ -8,17 +8,9 @@ Ensure that you have [NodeJS](https://nodejs.org/en/) installed.
 
 Clone or download the repository and run `npm install`. 
 
-Set apiKey and domain that was setup with Mailgun in `.sample.env`. You will also need to set the DNS records which could take 24-48 hours.
+Running `npm start` after this point
 
-Rename `.sample.env` to `.env`
-
-Use `npm run start:test` in order to test the code. Change the html, subject, from, and to address in `src/tester.ts` in order to test it. Make sure your csv with your leads is formatted as a csv from Cobalt Intelligence would be.
-
-After you feel comfortable with the test code, update the html, from, and subject in `src/index.ts`.
-
-After that, you just need to run `npm start`. This will send out emails to everyone in the csv list.
-
-[Full Guide Here](https://blog.cobaltintelligence.com/easy-email-marketing-with-mailgun/)
+[Full Guide Here](https://javascriptwebscrapingguy.com/cheeriojs-jordan-teaches-web-scraping)
 
 ### Prerequisites
 
@@ -34,9 +26,8 @@ npm i
 
 ## Built With
 
-* [Mailgun](https://github.com/mailgun/mailgun-js) - Mailgun's JS library
 * [NodeJS](https://nodejs.org/en/) - NodeJS
-* [csv-parser](https://github.com/mafintosh/csv-parser) - Library to parse csvs
+* [Cheerio](https://github.com/mafintosh/csv-parser) - Library to parse csvs
 
 ## Authors
 
