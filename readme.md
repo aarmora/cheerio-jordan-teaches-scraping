@@ -27,7 +27,7 @@ npm i
 ## Built With
 
 * [NodeJS](https://nodejs.org/en/) - NodeJS
-* [Cheerio](https://github.com/mafintosh/csv-parser) - Library to parse csvs
+* [Cheerio](https://github.com/cheeriojs/cheerio) - Library to parse html
 
 ## Authors
 
